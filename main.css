@@ -69,7 +69,18 @@ a:visited {
 		color: white;
 }
 
+.joe {
+		transform: rotate(-10deg);
+}
 
+.joebama {
+		transform: rotate(20deg);
+		
+}
+
+.center {
+		text-align: center;
+}
 /* Navigation Bar */
 ul.sidenav {
   list-style-type: none;
