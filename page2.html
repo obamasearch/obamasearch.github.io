@@ -70,6 +70,66 @@
 </iframe>    
 </div>
 
+<script>
+/* This code goes ABOVE the main HTML Comment Box code!
+ replace the text in the single quotes below to customize labels.*/
+hcb_user = {
+    /* L10N */
+    comments_header : 'Comments',
+    name_label : 'Your Identity',
+    content_label: 'Paste your mouth vomit',
+    submit : 'Enter the Arena',
+    logout_link : '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.png" alt="[logout]" class="hcb-icon hcb-door-out"/>',
+    admin_link : '<img src="https://www.htmlcommentbox.com/static/images/door_in.png" alt="[login]" class="hcb-icon hcb-door-in"/>',
+    no_comments_msg: 'No one has commented yet. Put your opinion!',
+    add:'Add your comment',
+    again: 'Post another comment',
+    rss:'<img src="https://www.htmlcommentbox.com/static/images/feed.png" class="hcb-icon" alt="rss"/> ',
+    said:'roared:',
+    prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
+    next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
+    showing:'Showing',
+    to:'to',
+    website_label:'website (optional)',
+    email_label:'email',
+    anonymous:'&#x41;&#x335;&#x341;&#x316;&#x326;&#x321;&#x318;&#x354;&#x356;&#x318;&#x326;&#x329;&#x356;&#x31d;&#x6e;&#x337;&#x34b;&#x357;&#x352;&#x351;&#x35d;&#x34a;&#x303;&#x30c;&#x354;&#x339;&#x32d;&#x325;&#x331;&#x32f;&#x355;&#x32c;&#x332;&#x327;&#x359;&#x327;&#x6f;&#x335;&#x343;&#x300;&#x358;&#x308;&#x30d;&#x33e;&#x304;&#x35d;&#x31b;&#x309;&#x354;&#x329;&#x323;&#x32e;&#x6e;&#x336;&#x304;&#x307;&#x309;&#x306;&#x31b;&#x311;&#x307;&#x301;&#x319;&#x35c;&#x330;&#x354;&#x355;&#x323;&#x320;&#x35a;&#x79;&#x337;&#x33f;&#x360;&#x309;&#x30f;&#x312;&#x343;&#x342;&#x32b;&#x356;&#x325;&#x32d;&#x6d;&#x337;&#x350;&#x314;&#x310;&#x350;&#x30b;&#x357;&#x305;&#x303;&#x33d;&#x343;&#x30a;&#x34c;&#x310;&#x313;&#x352;&#x354;&#x6f;&#x334;&#x34a;&#x315;&#x30c;&#x35d;&#x332;&#x33c;&#x33b;&#x333;&#x35c;&#x347;&#x31e;&#x33c;&#x321;&#x32c;&#x324;&#x32e;&#x75;&#x337;&#x341;&#x33e;&#x34a;&#x351;&#x35b;&#x35d;&#x300;&#x309;&#x313;&#x303;&#x307;&#x324;&#x73;&#x337;&#x30d;&#x346;&#x33e;&#x360;&#x312;&#x33e;&#x352;&#x352;&#x34b;&#x314;&#x308;&#x32c;&#x32a;&#x356;&#x33c;&#x31e;&#x31f;&#x331;&#x326;&#x325;&#x354;&#x32b;&#x330;',
+    mod_label:'[Owner]',
+    subscribe:'subscribe',
+    are_you_sure:'Is this comment doodoobrain?',
+
+    reply:'<img src="https://www.htmlcommentbox.com/static/images/reply.png"/> reply',
+    flag:'<img src="https://www.htmlcommentbox.com/static/images/flag.png"/> flag',
+    like:'<img src="https://www.htmlcommentbox.com/static/images/like.png"/> like',
+
+    /* dates */
+    days_ago:'days ago',
+    hours_ago:'hours ago',
+    minutes_ago:'minutes ago',
+    within_the_last_minute:'within the last minute',
+
+    msg_thankyou:'thx!',
+    msg_approval:'(this comment is not published until approved)',
+    msg_approval_required:'thx for commenting! Your comment will appear once approved by a moderator.',
+
+    err_bad_html:'Your comment contained bad html.',
+    err_bad_email:'Please enter a valid email address.',
+    err_too_frequent:'You must wait a few seconds between posting comments.',
+    err_comment_empty:'Your comment was not posted because it was empty!',
+    err_denied:'Your comment was not accepted.',
+    err_unknown:'Your comment was blocked for unknown reasons, please report this.',
+    err_spam:'Your comment was detected as spam.',
+    err_blocked:'Your comment was blocked by site policy.',
+
+    /* SETTINGS */
+    MAX_CHARS: 8192,
+    PAGE:'', /* ID of the webpage to show comments for. defaults to the webpage the user is currently visiting. */
+    ON_COMMENT: function(){}, /* Function to call after commenting. */
+    RELATIVE_DATES:true /* show dates in the form "X hours ago." etc. */
+};
+</script>
+<!-- done customizing labels of htmlcommentbox.com -->
+
+
 <div class="comment">
 <!-- begin wwww.htmlcommentbox.com -->
  <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">Comment Form</a> is loading comments...</div>
