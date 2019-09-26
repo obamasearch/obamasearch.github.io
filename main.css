@@ -84,7 +84,7 @@ a:visited {
 
 /* Comment Box */
 #HCB_comment_box textarea{}
-#HCB_comment_box{font-family:"Ink Free",serif;color:#888;background-color:transparent}
+#HCB_comment_box{font-family:"Ink Free",serif;color:#c9c9c9;background-color:transparent}
 #HCB_comment_box p.error{border:1px solid red;background-color:#fee}
 .hcb-mod b{color:#00ffdd}
 #HCB_comment_box textarea,
