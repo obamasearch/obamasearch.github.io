@@ -82,6 +82,30 @@ a:visited {
 		text-align: center;
 }
 
+.sidenav {
+  width: 100px;
+  height: 100px;
+  background-color: #034396;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0% {background-color: #034396;}
+  50% {background-color: black;}
+  100% {background-color: #034396;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0% {background-color: #034396;}
+  50% {background-color: black;}
+  100% {background-color: #034396;}
+}
 /* Comment Box */
 #HCB_comment_box textarea{}
 #HCB_comment_box{font-family:"Ink Free",serif;color:black;background-color:transparent}
