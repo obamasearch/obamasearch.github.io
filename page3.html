@@ -42,6 +42,31 @@ a:link .collaborators {
 a:visited {
 		color: blue;
 }
+
+.sidenav {
+  width: 100px;
+  height: 100px;
+  background-color: #034396;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0% {background-color: #034396;}
+  50% {background-color: black;}
+  100% {background-color: #034396;}
+}
+
+/* Standard syntax */
+@keyframes example {
+  0% {background-color: #034396;}
+  50% {background-color: black;}
+  100% {background-color: #034396;}
+}
     </style>
 </head>
 <body>
@@ -99,7 +124,7 @@ a:visited {
 	Mr. North 
 	<br>
 	<span id="subthanks">
-	Partnered with <a href="https://bradnorth.github.io">BradNorth Enterprises</a>
+	Partnered with <a href="https://bradnorth.github.io" target="_blank">BradNorth Enterprises</a>
 	</span>
 </h3> 
 <div id="thxpic">
@@ -115,7 +140,7 @@ a:visited {
 	</span>
 </h3>  
 <div id="thxpic">
-	<img width="300px" src="obamasearch.github.io/Marcelo.png">
+	<img width="300px" src="images/Marcelo.png">
 </div> 
 <h3 class="collaborators">
 	Jon 
@@ -125,7 +150,7 @@ a:visited {
 	</span>
 </h3>
 <div id="thxpic">
-	<img width="300px" src="obamasearch.github.io/Jon.jpg">
+	<img width="300px" src="images/Jon.jpg">
 </div>  
 <h3 class="collaborators">
 	Yoda 
