@@ -96,14 +96,14 @@ a:visited {
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   0% {background-color: #034396;}
-  50% {background-color: lightpurple;}
+  50% {background-color: purple;}
   100% {background-color: #034396;}
 }
 
 /* Standard syntax */
 @keyframes example {
   0% {background-color: #034396;}
-  50% {background-color: lightpurple;}
+  50% {background-color: purple;}
   100% {background-color: #034396;}
 }
 /* Comment Box */
