@@ -123,7 +123,10 @@ a:visited {
 
 
 
+#yeet {
+	opacity: 1;
 
+}
 /* Navigation Bar */
 ul.sidenav {
   list-style-type: none;
@@ -135,7 +138,7 @@ ul.sidenav {
   height: 100%;
   overflow: auto;
   font-family: "Ink Free", sans-serif;
-  
+  opacity: 0.75;
 }
 
 ul.sidenav li a {
@@ -145,6 +148,7 @@ ul.sidenav li a {
   text-decoration: none;
   margin: 5px;
   box-shadow: 3px 3px black;
+  opacity: 1;
 }
  
 ul.sidenav li a.active {
