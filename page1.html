@@ -10,12 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Vibes&display=swap" rel="stylesheet">
 <style>
-	#latest {
+#latest {
 		font-family:"Josefin Sans", fantasy;
 		font-size: 50px;
 		margin-left: 7.5px;
 		text-decoration: underline;
 }
+
+#menu ul.sidenav li a.current {
+		background-color: #deecff;
+} 
 </style>
 
 </head>
@@ -31,11 +35,14 @@
 	 A Community Collaboration To Unveil Obama's Last Name
     </p>
   </div>
-</div>  
-    <div>
+</div> 
+<script>
+$("a[href*='" + location.pathname + "']").addClass("current"); 
+</script> 
+    <div id="menu">
         <ul class="sidenav">
             <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="page1.html">Mod Posts</a></li>
+            <li><a class="current" href="page1.html">Mod Posts</a></li>
             <li><a href="page2.html">Forums</a></li>
             <li><a href="page3.html">Thx</a></li>
         </ul>
