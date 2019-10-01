@@ -132,7 +132,10 @@ ul.sidenav li a:active {
 
 }
 
-
+.disabled {
+	background-color: red;
+	cursor: not-allowed;
+}
 /* Navigation Bar */
 ul.sidenav {
   list-style-type: none;
