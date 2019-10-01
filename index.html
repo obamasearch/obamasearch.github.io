@@ -15,6 +15,7 @@
 }
 	.descheader {
 		font-family: "Josefin Sans", fantasy;
+
 		font-size:70px;
 		text-decoration: underline;
 }
@@ -54,6 +55,10 @@
 		margin-right: 25px;
 		text-shadow: 2px 2px gray;
 }
+
+#menu ul.sidenav li a.current {
+		background-color: #deecff;
+} 
 
 input[type=text], select {
   width: 250px;
@@ -110,9 +115,12 @@ input[type=submit]:hover {
     </p>
   </div>
 </div>  
-    <div>
+<script>
+$("a[href*='" + location.pathname + "']").addClass("current"); 
+</script>
+    <div id="menu">
         <ul class="sidenav">
-            <li><a class="active" href="index.html">Home</a></li>
+            <li><a class="active current" href="index.html">Home</a></li>
             <li><a href="page1.html">Mod Posts</a></li>
             <li><a href="page2.html">Forums</a></li>
             <li><a href="page3.html">Thx</a></li>
