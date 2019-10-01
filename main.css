@@ -127,6 +127,14 @@ a:visited {
 	opacity: 1;
 
 }
+
+
+.sidenav a:active {
+	background-color: red;
+}
+
+
+
 /* Navigation Bar */
 ul.sidenav {
   list-style-type: none;
@@ -151,13 +159,6 @@ ul.sidenav li a {
   opacity: 1;
 }
  
-ul.sidenav li a.active {
-  background-color: #deecff;
-  color: black;
-  text-style: bold;
-  font-family: "Ink Free", sans-serif;
-}
-
 ul.sidenav li a:hover:not(.active) {
   background-color: #596769;
   color: white;
