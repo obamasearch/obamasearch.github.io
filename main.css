@@ -1,12 +1,15 @@
-body {margin: 0;
+body {
+		margin: 0;
 		background-color: lightgray;
+		overflow-x: hidden;
 }
 
-.banner {
+#banner {
 		background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZTYztDd0OuinDhWuuKxYh8yt_YzEwLxN6W0tPMZFJo-NHf60UBA");
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-origin: content-box;
+		display: flex;
 }
 
 #obamalogo {
@@ -23,20 +26,7 @@ body {margin: 0;
 		margin-bottom:10px;
 		border: 10px ridge white;
 		margin-top:20px;
-}
-
-#bannerdesc {
-		display: inline-block;
-		font-size: 20px;
-		font-family: "Ink Free", sans-serif;
-  		color: lightgray;
-  		padding: 20px 15px;
-  		width: 175px;
-		position: relative;
-		top: 20px;
-		left: 300px;
-		border: 2px ridge black;
-		text-align: center;
+		display: block;
 }
 
 .post {
@@ -139,7 +129,7 @@ ul.sidenav li a:active {
 ul.sidenav {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 50px;
   width: 25%;
   background-color: #034396;
   position: fixed;
@@ -180,8 +170,6 @@ div.content {
     width: 100%;
     height: auto;
     position: relative;
-    
-    
   }
   
   ul.sidenav li a {
