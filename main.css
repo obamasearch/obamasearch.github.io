@@ -151,6 +151,8 @@ ul.sidenav li a {
   margin: 5px;
   box-shadow: 3px 3px black;
   opacity: 1;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
 }
  
 ul.sidenav li a:hover {
