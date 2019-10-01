@@ -153,7 +153,7 @@ ul.sidenav li a {
   opacity: 1;
 }
  
-ul.sidenav li a:hover:not(.active) {
+ul.sidenav li a:hover {
   background-color: #596769;
   color: white;
   font-family: "Ink Free", sans-serif;
