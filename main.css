@@ -93,6 +93,10 @@ a:visited {
   animation-iteration-count: infinite;
 }
 
+ul.sidenav li a:active {
+	background-color: #deecff;
+  	transform: translateY(40px);
+}
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   0% {background-color: #034396;}
