@@ -54,6 +54,48 @@
 		margin-right: 25px;
 		text-shadow: 2px 2px gray;
 }
+
+input[type=text], select {
+  width: 250px;
+  padding: 12px 20px;
+  margin-right: 16px;
+  margin-left: 16px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 1000px;
+}
+
+input[type=submit] {
+  width: 250px;
+  background-color: gray;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 4px 4px green;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left: 550px;
+  margin-right: 70px;
+  width: 500px;
+}
     </style>
 </head>
 <body>
@@ -93,7 +135,17 @@
 		"Joebama"
 </h3>
 
-
+<div class="form">
+<form action="/action_page.php">
+  winner name:<br>
+  <input type="text" name="Name #1" value="John">
+  <br>
+  last name noob:<br>
+  <input type="text" name="Name #2" value="Doerito">
+  <br><br>
+  <input type="submit" value="doerito ready?">
+</form> 
+</div>
 <h2 class="descalign trending">
 	Trending . . .
 </h2>
