@@ -44,7 +44,9 @@ a:link .collaborators {
 		color: purple;
 }
 
-
+#menu ul.sidenav li a.current {
+		background-color: #deecff;
+} 
 
 
     </style>
@@ -63,12 +65,15 @@ a:link .collaborators {
     </p>
   </div>
 </div>  
-    <div>
+<script>
+$("a[href*='" + location.pathname + "']").addClass("current"); 
+</script>
+    <div id="menu">
         <ul class="sidenav">
             <li><a class="active" href="index.html">Home</a></li>
             <li><a href="page1.html">Mod Posts</a></li>
             <li><a href="page2.html">Forums</a></li>
-            <li><a href="page3.html">Thx</a></li>
+            <li><a class="current" href="page3.html">Thx</a></li>
         </ul>
     </div>
 
@@ -84,7 +89,7 @@ a:link .collaborators {
 	</span>
 </h3> 
 <div id="thxpic">
-	<img width="300px" src="https://obamasearch.github.io/5BA9A31F-6A75-4777-9F05-428D5FBCF773.jpeg">
+	<img width="300px" src="https://obamasearch.github.io/chris.jpg">
 </div>   
 <h3 class="collaborators">
 	Elliott 
