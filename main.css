@@ -5,7 +5,6 @@ body {margin: 0;
 .banner {
 		background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZTYztDd0OuinDhWuuKxYh8yt_YzEwLxN6W0tPMZFJo-NHf60UBA");
 		background-repeat: no-repeat;
-		background-color: #00ba92;
 		background-size: cover;
 		background-origin: content-box;
 }
