@@ -129,12 +129,6 @@ a:visited {
 }
 
 
-.sidenav a:active {
-	background-color: red;
-}
-
-
-
 /* Navigation Bar */
 ul.sidenav {
   list-style-type: none;
