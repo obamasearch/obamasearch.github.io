@@ -153,6 +153,7 @@ ul.sidenav li a {
   opacity: 1;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  border-radius: 10px;
 }
  
 ul.sidenav li a:hover {
