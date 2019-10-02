@@ -75,14 +75,18 @@ input[type=text], select {
   transition: width 0.4s ease-in-out;
 }
 
+input[type=submit] {
+	font-family: "Mansalva", cursive;
+	font-size: 20px;
+}
 input[type=text]:focus {
   width: 350px;
 }
 
 input[type=submit] {
   width: 250px;
-  background-color: gray;
-  color: white;
+  background-color: lightgray;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -97,11 +101,13 @@ input[type=submit]:hover {
 
 .form {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: darkgray;
   padding: 20px;
   margin-left: 550px;
   margin-right: 70px;
   width: 500px;
+  font-family: "Mansalva", cursive;
+  font-weight: bold;
 }
 
 input[type=submit]:active {
@@ -151,10 +157,10 @@ $("a[href*='" + location.pathname + "']").addClass("current");
 
 <div class="form">
 <form action="https://manaidesign.co" target="_blank">
-  winner name:<br>
+  Hot Specialty Subs:<br>
   <input type="text" name="Name #1" value="John">
   <br>
-  last name noob:<br>
+  Sides:<br>
   <input type="text" name="Name #2" value="Doerito">
   <br><br>
   <input type="submit" value="doerito ready?">
