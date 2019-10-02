@@ -50,7 +50,20 @@ a:link .collaborators {
 		font-weight: bold;
 } 
 
+.inversed {
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  box-shadow: 2px 2px orange; 
+  height: 25px;
+  border-radius: 10px;
+  color: white;
+  background-color: #292929;
+}
 
+.inversed:hover {
+		background-color: white;
+		color: black;
+}
     </style>
 </head>
 <body>
@@ -81,6 +94,23 @@ $("a[href*='" + location.pathname + "']").addClass("current");
 <h1 class="thanks">
 	Special Thanks To:
 </h1>
+
+						<!--INVERSE BUTTON-->
+<div class="inv">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+</script>
+
+
+<button class="inversed">Inverse</button>
+
+
+<script>
+	$("button").click(function () {
+  $("html").toggleClass("inversed");
+});
+</script>
+</div>
+						<!--INVERSE BUTTON END-->
 <h3 class="collaborators">
 	Chris 
 	<br>
